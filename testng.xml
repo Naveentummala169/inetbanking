@@ -4,9 +4,9 @@
   <test thread-count="5" name="ebankingTest">
   <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.inetbanking.testCases.TC_LoginDDT_002"/>
-      <class name="com.inetbanking.testCases.TC_AddNewCustomerTest_003"/>
       <class name="com.inetbanking.testCases.TC_LoginTest_001"/>
+      <class name="com.inetbanking.testCases.TC_LoginDDT_002"/>
+      <class name="com.inetbanking.testCases.TC_AddNewCustomerTest_003"/>   
     </classes>
   </test> <!-- ebankingTest -->
 </suite> <!-- ebanking -->

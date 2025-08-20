@@ -28,9 +28,8 @@ public class BaseClass
 	
 	public static Logger logger;
 	
-	
-	@BeforeClass
 	@Parameters("browser")
+	@BeforeClass
 	public void setup(String br) 
 	{
 		

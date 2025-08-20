@@ -33,7 +33,7 @@ public class TC_AddNewCustomerTest_003 extends BaseClass
 		addcust.custaddress("INDIA");
 		addcust.custcity("Nellore");
 		addcust.custstate("Andhra");
-		addcust.custpinno("5234305");
+		addcust.custpinno("524305");
 		addcust.custtelephoneno("9876549876");
 		
 		String email=randomstring()+"@gmail.com";

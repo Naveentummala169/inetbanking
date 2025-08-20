@@ -1,18 +1,24 @@
-# Initialize root logger with level INFO and attach console and file appenders
-log4j.rootLogger=INFO, console, file
+# Root logger level and appenders
+rootLogger.level = info
+rootLogger.appenderRefs = console, file
+rootLogger.appenderRef.console.ref = ConsoleAppender
+rootLogger.appenderRef.file.ref = FileAppender
 
-# Console Appender configuration
-log4j.appender.console=org.apache.log4j.ConsoleAppender
-log4j.appender.console.layout=org.apache.log4j.PatternLayout
-log4j.appender.console.layout.ConversionPattern=%d{ISO8601} %-5p %c{1} - %m%n
+# Console appender config
+appender.console.type = Console
+appender.console.name = ConsoleAppender
+appender.console.layout.type = PatternLayout
+appender.console.layout.pattern = %d{yyyy-MM-dd HH:mm:ss} [%p] %c{1} - %m%n
 
-# File Appender configuration
-log4j.appender.file=org.apache.log4j.RollingFileAppender
-log4j.appender.file.File=application.log
-log4j.appender.file.MaxFileSize=10MB
-log4j.appender.file.MaxBackupIndex=5
-log4j.appender.file.layout=org.apache.log4j.PatternLayout
-log4j.appender.file.layout.ConversionPattern=%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n
-
-# Specific logger configuration for a package
-log4j.logger.com.example.myapp=DEBUG
+# File appender config
+appender.file.type = RollingFile
+appender.file.name = FileAppender
+appender.file.fileName = logs/app.log
+appender.file.filePattern = logs/app-%d{yyyy-MM-dd}-%i.log.gz
+appender.file.layout.type = PatternLayout
+appender.file.layout.pattern = %d{yyyy-MM-dd HH:mm:ss} [%p] %c{1} - %m%n
+appender.file.policies.type = Policies
+appender.file.policies.size.type = SizeBasedTriggeringPolicy
+appender.file.policies.size.size=5MB
+appender.file.strategy.type = DefaultRolloverStrategy
+appender.file.strategy.max = 10

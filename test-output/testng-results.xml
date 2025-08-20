@@ -1,185 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="0" failed="0" skipped="7">
+<testng-results ignored="0" total="5" passed="0" failed="0" skipped="5">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-18T14:37:54 IST" name="ebanking" finished-at="2025-08-18T14:37:54 IST" duration-ms="850">
+  <suite started-at="2025-08-20T11:34:19 IST" name="Default suite" finished-at="2025-08-20T11:34:20 IST" duration-ms="957">
     <groups>
     </groups>
-    <test started-at="2025-08-18T14:37:54 IST" name="ebankingTest" finished-at="2025-08-18T14:37:54 IST" duration-ms="850">
-      <class name="com.inetbanking.testCases.TC_LoginTest_001">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_LoginTest_001@247bddad]" started-at="2025-08-18T14:37:54 IST" name="setup" finished-at="2025-08-18T14:37:54 IST" duration-ms="3" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
-            <message>
-              <![CDATA[Unable to obtain: chromedriver, error Illegal char <"> at index 0: "C:\Users\navee\eclipse-workspace\inetbanking\drivers\chromedriver.exe";
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: driver.version: ChromeDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error Illegal char <"> at index 0: "C:\Users\navee\eclipse-workspace\inetbanking\drivers\chromedriver.exe";
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: driver.version: ChromeDriver
-at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
-at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
-at com.inetbanking.testCases.BaseClass.setup(BaseClass.java:42)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "C:\Users\navee\eclipse-workspace\inetbanking\drivers\chromedriver.exe";
-at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:204)
-at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:175)
-at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
-at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
-at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:231)
-at java.base/java.nio.file.Path.of(Path.java:148)
-at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-... 30 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="loginTest()[pri:0, instance:com.inetbanking.testCases.TC_LoginTest_001@247bddad]" started-at="2025-08-18T14:37:54 IST" name="loginTest" finished-at="2025-08-18T14:37:54 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
-            <message>
-              <![CDATA[Unable to obtain: chromedriver, error Illegal char <"> at index 0: "C:\Users\navee\eclipse-workspace\inetbanking\drivers\chromedriver.exe";
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: driver.version: ChromeDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error Illegal char <"> at index 0: "C:\Users\navee\eclipse-workspace\inetbanking\drivers\chromedriver.exe";
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: driver.version: ChromeDriver
-at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
-at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
-at com.inetbanking.testCases.BaseClass.setup(BaseClass.java:42)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "C:\Users\navee\eclipse-workspace\inetbanking\drivers\chromedriver.exe";
-at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:204)
-at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:175)
-at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
-at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
-at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:231)
-at java.base/java.nio.file.Path.of(Path.java:148)
-at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-... 30 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inetbanking.testCases.TC_LoginTest_001@247bddad]" started-at="2025-08-18T14:37:54 IST" name="tearDown" finished-at="2025-08-18T14:37:54 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.inetbanking.testCases.TC_LoginTest_001 -->
+    <test started-at="2025-08-20T11:34:19 IST" name="Default test" finished-at="2025-08-20T11:34:20 IST" duration-ms="957">
       <class name="com.inetbanking.testCases.TC_LoginDDT_002">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_LoginDDT_002@8297b3a]" started-at="2025-08-18T14:37:54 IST" name="setup" finished-at="2025-08-18T14:37:54 IST" duration-ms="72" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_LoginDDT_002@489115ef]" started-at="2025-08-20T11:34:19 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1755669859775" status="FAIL">
+          <exception class="org.testng.TestNGException">
             <message>
-              <![CDATA[Unable to obtain: chromedriver, error Illegal char <"> at index 0: "C:\Users\navee\eclipse-workspace\inetbanking\drivers\chromedriver.exe";
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: driver.version: ChromeDriver]]>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\navee\AppData\Local\Temp\testng-eclipse-1470341927\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error Illegal char <"> at index 0: "C:\Users\navee\eclipse-workspace\inetbanking\drivers\chromedriver.exe";
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: driver.version: ChromeDriver
-at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
-at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
-at com.inetbanking.testCases.BaseClass.setup(BaseClass.java:42)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\navee\AppData\Local\Temp\testng-eclipse-1470341927\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
 at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:741)
 at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -195,22 +41,13 @@ at org.testng.TestNG.run(TestNG.java:1079)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "C:\Users\navee\eclipse-workspace\inetbanking\drivers\chromedriver.exe";
-at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:204)
-at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:175)
-at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
-at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
-at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:231)
-at java.base/java.nio.file.Path.of(Path.java:148)
-at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-... 30 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_LoginDDT_002@8297b3a]" started-at="2025-08-18T14:37:54 IST" name="loginDDT" data-provider="LoginData" finished-at="2025-08-18T14:37:54 IST" duration-ms="0" status="SKIP">
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_LoginDDT_002@489115ef]" started-at="2025-08-20T11:34:20 IST" name="loginDDT" data-provider="LoginData" finished-at="2025-08-20T11:34:20 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -223,36 +60,24 @@ at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.j
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
+          <exception class="org.testng.TestNGException">
             <message>
-              <![CDATA[Unable to obtain: chromedriver, error Illegal char <"> at index 0: "C:\Users\navee\eclipse-workspace\inetbanking\drivers\chromedriver.exe";
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: driver.version: ChromeDriver]]>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\navee\AppData\Local\Temp\testng-eclipse-1470341927\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error Illegal char <"> at index 0: "C:\Users\navee\eclipse-workspace\inetbanking\drivers\chromedriver.exe";
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: driver.version: ChromeDriver
-at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
-at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
-at com.inetbanking.testCases.BaseClass.setup(BaseClass.java:42)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\navee\AppData\Local\Temp\testng-eclipse-1470341927\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
 at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:741)
 at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -268,22 +93,13 @@ at org.testng.TestNG.run(TestNG.java:1079)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "C:\Users\navee\eclipse-workspace\inetbanking\drivers\chromedriver.exe";
-at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:204)
-at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:175)
-at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
-at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
-at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:231)
-at java.base/java.nio.file.Path.of(Path.java:148)
-at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-... 30 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_LoginDDT_002@8297b3a]" started-at="2025-08-18T14:37:54 IST" name="loginDDT" data-provider="LoginData" finished-at="2025-08-18T14:37:54 IST" duration-ms="0" status="SKIP">
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_LoginDDT_002@489115ef]" started-at="2025-08-20T11:34:20 IST" name="loginDDT" data-provider="LoginData" finished-at="2025-08-20T11:34:20 IST" duration-ms="1" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -296,36 +112,24 @@ at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.j
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
+          <exception class="org.testng.TestNGException">
             <message>
-              <![CDATA[Unable to obtain: chromedriver, error Illegal char <"> at index 0: "C:\Users\navee\eclipse-workspace\inetbanking\drivers\chromedriver.exe";
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: driver.version: ChromeDriver]]>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\navee\AppData\Local\Temp\testng-eclipse-1470341927\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error Illegal char <"> at index 0: "C:\Users\navee\eclipse-workspace\inetbanking\drivers\chromedriver.exe";
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: driver.version: ChromeDriver
-at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
-at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
-at com.inetbanking.testCases.BaseClass.setup(BaseClass.java:42)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\navee\AppData\Local\Temp\testng-eclipse-1470341927\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
 at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:741)
 at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -341,22 +145,13 @@ at org.testng.TestNG.run(TestNG.java:1079)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "C:\Users\navee\eclipse-workspace\inetbanking\drivers\chromedriver.exe";
-at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:204)
-at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:175)
-at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
-at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
-at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:231)
-at java.base/java.nio.file.Path.of(Path.java:148)
-at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-... 30 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_LoginDDT_002@8297b3a]" started-at="2025-08-18T14:37:54 IST" name="loginDDT" data-provider="LoginData" finished-at="2025-08-18T14:37:54 IST" duration-ms="0" status="SKIP">
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_LoginDDT_002@489115ef]" started-at="2025-08-20T11:34:20 IST" name="loginDDT" data-provider="LoginData" finished-at="2025-08-20T11:34:20 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -369,36 +164,24 @@ at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.j
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
+          <exception class="org.testng.TestNGException">
             <message>
-              <![CDATA[Unable to obtain: chromedriver, error Illegal char <"> at index 0: "C:\Users\navee\eclipse-workspace\inetbanking\drivers\chromedriver.exe";
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: driver.version: ChromeDriver]]>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\navee\AppData\Local\Temp\testng-eclipse-1470341927\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error Illegal char <"> at index 0: "C:\Users\navee\eclipse-workspace\inetbanking\drivers\chromedriver.exe";
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: driver.version: ChromeDriver
-at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
-at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
-at com.inetbanking.testCases.BaseClass.setup(BaseClass.java:42)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\navee\AppData\Local\Temp\testng-eclipse-1470341927\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
 at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:741)
 at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -414,22 +197,13 @@ at org.testng.TestNG.run(TestNG.java:1079)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "C:\Users\navee\eclipse-workspace\inetbanking\drivers\chromedriver.exe";
-at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:204)
-at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:175)
-at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
-at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
-at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:231)
-at java.base/java.nio.file.Path.of(Path.java:148)
-at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-... 30 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_LoginDDT_002@8297b3a]" started-at="2025-08-18T14:37:54 IST" name="loginDDT" data-provider="LoginData" finished-at="2025-08-18T14:37:54 IST" duration-ms="0" status="SKIP">
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_LoginDDT_002@489115ef]" started-at="2025-08-20T11:34:20 IST" name="loginDDT" data-provider="LoginData" finished-at="2025-08-20T11:34:20 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -442,36 +216,24 @@ at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.j
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
+          <exception class="org.testng.TestNGException">
             <message>
-              <![CDATA[Unable to obtain: chromedriver, error Illegal char <"> at index 0: "C:\Users\navee\eclipse-workspace\inetbanking\drivers\chromedriver.exe";
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: driver.version: ChromeDriver]]>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\navee\AppData\Local\Temp\testng-eclipse-1470341927\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error Illegal char <"> at index 0: "C:\Users\navee\eclipse-workspace\inetbanking\drivers\chromedriver.exe";
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: driver.version: ChromeDriver
-at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
-at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
-at com.inetbanking.testCases.BaseClass.setup(BaseClass.java:42)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\navee\AppData\Local\Temp\testng-eclipse-1470341927\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
 at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:741)
 at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -487,22 +249,13 @@ at org.testng.TestNG.run(TestNG.java:1079)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "C:\Users\navee\eclipse-workspace\inetbanking\drivers\chromedriver.exe";
-at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:204)
-at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:175)
-at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
-at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
-at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:231)
-at java.base/java.nio.file.Path.of(Path.java:148)
-at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-... 30 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_LoginDDT_002@8297b3a]" started-at="2025-08-18T14:37:54 IST" name="loginDDT" data-provider="LoginData" finished-at="2025-08-18T14:37:54 IST" duration-ms="0" status="SKIP">
+        <test-method signature="loginDDT(java.lang.String,java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_LoginDDT_002@489115ef]" started-at="2025-08-20T11:34:20 IST" name="loginDDT" data-provider="LoginData" finished-at="2025-08-20T11:34:20 IST" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -515,36 +268,24 @@ at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.j
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
+          <exception class="org.testng.TestNGException">
             <message>
-              <![CDATA[Unable to obtain: chromedriver, error Illegal char <"> at index 0: "C:\Users\navee\eclipse-workspace\inetbanking\drivers\chromedriver.exe";
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: driver.version: ChromeDriver]]>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\navee\AppData\Local\Temp\testng-eclipse-1470341927\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error Illegal char <"> at index 0: "C:\Users\navee\eclipse-workspace\inetbanking\drivers\chromedriver.exe";
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: driver.version: ChromeDriver
-at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
-at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
-at com.inetbanking.testCases.BaseClass.setup(BaseClass.java:42)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\navee\AppData\Local\Temp\testng-eclipse-1470341927\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
 at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 at org.testng.TestRunner.privateRun(TestRunner.java:741)
 at org.testng.TestRunner.run(TestRunner.java:616)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -560,161 +301,17 @@ at org.testng.TestNG.run(TestNG.java:1079)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "C:\Users\navee\eclipse-workspace\inetbanking\drivers\chromedriver.exe";
-at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:204)
-at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:175)
-at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
-at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
-at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:231)
-at java.base/java.nio.file.Path.of(Path.java:148)
-at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-... 30 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginDDT -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inetbanking.testCases.TC_LoginDDT_002@8297b3a]" started-at="2025-08-18T14:37:54 IST" name="tearDown" finished-at="2025-08-18T14:37:54 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inetbanking.testCases.TC_LoginDDT_002@489115ef]" started-at="2025-08-20T11:34:20 IST" name="tearDown" finished-at="2025-08-20T11:34:20 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.inetbanking.testCases.TC_LoginDDT_002 -->
-      <class name="com.inetbanking.testCases.TC_AddNewCustomerTest_003">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testCases.TC_AddNewCustomerTest_003@544fa968]" started-at="2025-08-18T14:37:54 IST" name="setup" finished-at="2025-08-18T14:37:54 IST" duration-ms="2" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
-            <message>
-              <![CDATA[Unable to obtain: chromedriver, error Illegal char <"> at index 0: "C:\Users\navee\eclipse-workspace\inetbanking\drivers\chromedriver.exe";
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: driver.version: ChromeDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error Illegal char <"> at index 0: "C:\Users\navee\eclipse-workspace\inetbanking\drivers\chromedriver.exe";
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: driver.version: ChromeDriver
-at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
-at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
-at com.inetbanking.testCases.BaseClass.setup(BaseClass.java:42)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "C:\Users\navee\eclipse-workspace\inetbanking\drivers\chromedriver.exe";
-at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:204)
-at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:175)
-at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
-at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
-at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:231)
-at java.base/java.nio.file.Path.of(Path.java:148)
-at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-... 30 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="addNewCustomer()[pri:0, instance:com.inetbanking.testCases.TC_AddNewCustomerTest_003@544fa968]" started-at="2025-08-18T14:37:54 IST" name="addNewCustomer" finished-at="2025-08-18T14:37:54 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.remote.NoSuchDriverException">
-            <message>
-              <![CDATA[Unable to obtain: chromedriver, error Illegal char <"> at index 0: "C:\Users\navee\eclipse-workspace\inetbanking\drivers\chromedriver.exe";
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: driver.version: ChromeDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.remote.NoSuchDriverException: Unable to obtain: chromedriver, error Illegal char <"> at index 0: "C:\Users\navee\eclipse-workspace\inetbanking\drivers\chromedriver.exe";
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/
-Build info: version: '4.34.0', revision: '707dcb4246*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
-Driver info: driver.version: ChromeDriver
-at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:124)
-at org.openqa.selenium.remote.service.DriverFinder.getDriverPath(DriverFinder.java:55)
-at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:51)
-at com.inetbanking.testCases.BaseClass.setup(BaseClass.java:42)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-Caused by: java.nio.file.InvalidPathException: Illegal char <"> at index 0: "C:\Users\navee\eclipse-workspace\inetbanking\drivers\chromedriver.exe";
-at java.base/sun.nio.fs.WindowsPathParser.normalize(WindowsPathParser.java:204)
-at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:175)
-at java.base/sun.nio.fs.WindowsPathParser.parse(WindowsPathParser.java:77)
-at java.base/sun.nio.fs.WindowsPath.parse(WindowsPath.java:92)
-at java.base/sun.nio.fs.WindowsFileSystem.getPath(WindowsFileSystem.java:231)
-at java.base/java.nio.file.Path.of(Path.java:148)
-at org.openqa.selenium.remote.service.DriverFinder.getBinaryPaths(DriverFinder.java:121)
-... 30 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.remote.NoSuchDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addNewCustomer -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.inetbanking.testCases.TC_AddNewCustomerTest_003@544fa968]" started-at="2025-08-18T14:37:54 IST" name="tearDown" finished-at="2025-08-18T14:37:54 IST" duration-ms="0" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.inetbanking.testCases.TC_AddNewCustomerTest_003 -->
-    </test> <!-- ebankingTest -->
-  </suite> <!-- ebanking -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
